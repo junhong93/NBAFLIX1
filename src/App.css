@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  background-color: #111;
+}
+
+.App-header {
+  object-fit: contain;
+  margin-left: 300px;
+}
+
+.Trending {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.App-Highlights, .App-DunkContest, .App-ClassicGames {
+  display: flex;
+  object-fit: contain;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+
+
+
+/* .App-Highlights::-webkit-scrollbar {
+  display: none;
+} */
+
+.highlight1, .dunk1 {
+  object-fit: contain;
+  width: 225px;
+  max-height: 300px;
+  transition: transform 450ms;
+  margin-right: 10px;
+}
+
+
+
+.highlight2, .highlight3, .highlight4, .highlight5, .dunk2, .dunk3, .dunk4, .dunk5, .classic2, .classic3, .classic5 {
+  object-fit: contain;
+  width: 300px;
+  max-height: 300px;
+  transition: transform 450ms;
+  margin-right: 10px;
+}
+
+.dunk6 {
+  object-fit: contain;
+  width: 255px;
+  max-height: 300px;
+  transition: transform 450ms;
+  margin-right: 10px;
+}
+
+.classic1 {
+  object-fit: contain;
+  width: 255px;
+  max-height: 300px;
+  transition: transform 450ms;
+  margin-right: 10px;
+}
+
+.classic4{
+  object-fit: contain;
+  width: 225px;
+  max-height: 300px;
+  transition: transform 450ms;
+  margin-right: 10px;
+  
+}
+
+img:hover {
+  transform: scale(1.08);
+}
+
+
+.banner {
+  background-image: url("https://i.imgur.com/qWxwueX.jpg");
+  height: 600px;
+}
+
+.bannerButton {
+  color: white;
+  background-color: #778899;
+  width: 120px;
+  height: 50px;
+  transition: transform 450ms;
+}
+
+.bannerButton:hover {
+  transform: sacle(1.08);
+}
+
+.banner__title {
+  text-align: center;
+  color: white; 
+}
+
+.NavBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 30px;
+  z-index: 1;
+
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+
+  /* display: flex;
+  justify-content: space-between;
+  background-color: #111; */
+}
+
+.nav__black {
+  background-color: #111;
+}
+
+
+.Nav__logo {
+  position: fixed;
+  width: 80px;
+  left: 0;
+  margin-left: 4px;
+  
+  object-fit: contain;
+}
+
+.login, .logout {
+  position: fixed;
+  right: 20px;
+  width: 60px;
+  height: 40px;
+  object-fit: contain;
+  background-color: cornflowerblue;
+}
+
+h1 {
+  color: white;
+}
